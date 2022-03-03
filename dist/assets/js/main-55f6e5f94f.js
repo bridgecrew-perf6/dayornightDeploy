@@ -180,10 +180,25 @@
 
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
+    // stagePadding: 50,
+    margin: 10,
+    center: true,
     autoplay: true,
+    //autoWidth: true,
     dots: true,
     loop: true,
-    items: 1
+    items: 1,
+    // responsive:{
+    //   0:{
+    //     items: 1,
+    //   },
+    //   600:{
+    //     items: 1,
+    //   },
+    //   1000:{
+    //     items: 1,
+    //   }
+    // }
   });
 
   // Init AOS
